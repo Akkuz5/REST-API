@@ -1,0 +1,19 @@
+# Создано https://www.toptal.com/developers/gitignore/api/linux
+# Редактировать в https://www.toptal.com/developers/gitignore?templates=linux
+
+### Linux ###
+*~
+
+# временные файлы, которые могут быть созданы, если у процесса все еще открыт дескриптор удаленного файла 
+.fuse_hidden*
+
+# Настройки каталога KDE 
+.каталог
+
+# Папка корзины Linux, которая может отображаться на любом разделе или диске
+.Корзина-*
+
+ файлы # .nfs создаются при удалении открытого файла, но доступ к ним сохраняется 
+.nfs*
+
+# Конец https://www.toptal.com/developers/gitignore/api/linux
